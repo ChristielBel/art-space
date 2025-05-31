@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    <string name="silver_cat">Silver tabby cat surrounded by leaves</string>
+    <string name="silver_cat_info">Nadi Whatisdelirium (July 17, 2017)</string>
+    <string name="bunch_of_leaves">A picture of a bunch of yellow and pink leaves</string>
+    <string name="bunch_of_leaves_info">Eugene Golovesov (March 3, 2025)</string>
+    <string name="orange_poppy_flower">An orange poppy flower stands tall</string>
+    <string name="orange_poppy_flower_info">Lorin Both (May 30, 2025)</string>
+    <string name="sun_sets_over_the_ocean">The sun sets over the ocean, beautifully reflecting</string>
+    <string name="sun_sets_over_the_ocean_info">Hennie Stander (May 29, 2025)</string>
+    <string name="peaceful_beach_at_sunset">Surfers walk along a peaceful beach at sunset</string>
+    <string name="peaceful_beach_at_sunset_info">Djordje Djordjevic (May 30, 2025)</string>
+    <string name="ford_mustang">An antique ford mustang shines in the sunlight</string>
+    <string name="ford_mustang_info">Kirill Prikhodko (March 30, 2025)</string>
+    <string name="skull">A skull constructed of tangled, white fibers</string>
+    <string name="skull_info">Pawel Czerwinski (March 31, 2025)</string>
+    <string name="plate_and_glasses">A plate and glasses sit on a shelf</string>
+    <string name="plate_and_glasses_info">Aleksandra Dementeva (May 25, 2025)</string>
+    <string name="fog_shrouds">Fog shrouds a forest of evergreens</string>
+    <string name="fog_shrouds_info">Kevin Mueller (May 28, 2025)</string>
+    <string name="waves_crash">Waves crash in front of a misty mountain</string>
+    <string name="waves_crash_info">Carlos (April 17, 2025)</string>
+    <string name="red_tulips">Red tulips bloom beautifully in the spring garden</string>
+    <string name="red_tulips_info">Aaron Burden (April 16, 2025)</string>
+    <string name="vibrant_sunflower">A vibrant sunflower blooms in the sunshine</string>
+    <string name="vibrant_sunflower_info">Nastia Petruk (May 23, 2025)</string>
+    <string name="inside_of_a_church">Inside of a church with colorful ceiling paintings</string>
+    <string name="inside_of_a_church_info">Laura (May 21, 2025)</string>
+    <string name="vibrant_green_plants">Vibrant green plants fill the frame in this image</string>
+    <string name="vibrant_green_plants_info">Hanna Lazar (May 20, 2025)</string>
+    <string name="pretty_peach_flowers">Pretty peach flowers bloom in the sunlight</string>
+    <string name="pretty_peach_flowers_info">Aaron Burden (May 20, 2025)</string>
+    <string name="pink_cherry_blossom">Pink cherry blossom tree in full bloom</string>
+    <string name="pink_cherry_blossom_info">Aaron Burden (April 16, 2025)</string>
+    <string name="neon_lit_alley">Person walks with an umbrella in a neon-lit alley</string>
+    <string name="neon_lit_alley_info">Andrew Haimerl (May 13, 2025)</string>
+</resources>
