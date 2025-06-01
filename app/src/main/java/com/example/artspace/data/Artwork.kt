@@ -1,8 +1,10 @@
 package com.example.artspace.data
 
-data class Artwork(
-    val imageRes: Int,
-    val titleRes: Int,
-    val infoRes: Int
-)
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
 
+data class Artwork(
+    @DrawableRes val imageRes: Int,
+    @StringRes val titleRes: Int,
+    @StringRes val infoRes: Int
+)

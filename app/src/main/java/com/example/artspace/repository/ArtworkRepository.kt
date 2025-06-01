@@ -5,22 +5,90 @@ import com.example.artspace.data.Artwork
 
 object ArtworkRepository {
     val artworks = listOf(
-        Artwork(R.drawable.nadi_whatisdelirium_fz8uf_l52wg_unsplash, R.string.silver_cat, R.string.silver_cat_info),
-        Artwork(R.drawable.eugene_golovesov_b1pwkdbyjco_unsplash, R.string.bunch_of_leaves, R.string.bunch_of_leaves_info),
-        Artwork(R.drawable.lorin_both_egffthvqwfw_unsplash, R.string.orange_poppy_flower, R.string.orange_poppy_flower_info),
-        Artwork(R.drawable.hennie_stander_v4smlpt8i6s_unsplash, R.string.sun_sets_over_the_ocean, R.string.sun_sets_over_the_ocean_info),
-        Artwork(R.drawable.djordje_djordjevic_lptq4zznusa_unsplash, R.string.peaceful_beach_at_sunset, R.string.peaceful_beach_at_sunset_info),
-        Artwork(R.drawable.kirill_prikhodko_mgf3pku1ffi_unsplash, R.string.ford_mustang, R.string.ford_mustang_info),
-        Artwork(R.drawable.pawel_czerwinski_xa2_q_pwcou_unsplash, R.string.skull, R.string.skull_info),
-        Artwork(R.drawable.aleksandra_dementeva_prnmjrkhvpm_unsplash, R.string.plate_and_glasses, R.string.plate_and_glasses_info),
-        Artwork(R.drawable.kevin_mueller_mardxkt4gdk_unsplash, R.string.fog_shrouds, R.string.fog_shrouds_info),
-        Artwork(R.drawable.carlos_tonqdovhvj0_unsplash, R.string.waves_crash, R.string.waves_crash_info),
-        Artwork(R.drawable.aaron_burden_cmzzu6zfvto_unsplash, R.string.red_tulips, R.string.red_tulips_info),
-        Artwork(R.drawable.nastia_petruk_ibx2oiyhw2i_unsplash, R.string.vibrant_sunflower, R.string.vibrant_sunflower_info),
-        Artwork(R.drawable.laura_ufuqmun1vem_unsplash, R.string.inside_of_a_church, R.string.inside_of_a_church_info),
-        Artwork(R.drawable.hanna_lazar_nan6_wtljqu_unsplash, R.string.vibrant_green_plants, R.string.vibrant_green_plants_info),
-        Artwork(R.drawable.aaron_burden_oa6ouqfswew_unsplash, R.string.pretty_peach_flowers, R.string.pretty_peach_flowers_info),
-        Artwork(R.drawable.aaron_burden_khsl_my40ya_unsplash, R.string.pink_cherry_blossom, R.string.pink_cherry_blossom_info),
-        Artwork(R.drawable.andrew_haimerl_gvp0tnq1u0a_unsplash, R.string.neon_lit_alley, R.string.neon_lit_alley_info)
+        Artwork(
+            R.drawable.nadi_whatisdelirium_fz8uf_l52wg_unsplash,
+            R.string.silver_cat,
+            R.string.silver_cat_info
+        ),
+        Artwork(
+            R.drawable.eugene_golovesov_b1pwkdbyjco_unsplash,
+            R.string.bunch_of_leaves,
+            R.string.bunch_of_leaves_info
+        ),
+        Artwork(
+            R.drawable.lorin_both_egffthvqwfw_unsplash,
+            R.string.orange_poppy_flower,
+            R.string.orange_poppy_flower_info
+        ),
+        Artwork(
+            R.drawable.hennie_stander_v4smlpt8i6s_unsplash,
+            R.string.sun_sets_over_the_ocean,
+            R.string.sun_sets_over_the_ocean_info
+        ),
+        Artwork(
+            R.drawable.djordje_djordjevic_lptq4zznusa_unsplash,
+            R.string.peaceful_beach_at_sunset,
+            R.string.peaceful_beach_at_sunset_info
+        ),
+        Artwork(
+            R.drawable.kirill_prikhodko_mgf3pku1ffi_unsplash,
+            R.string.ford_mustang,
+            R.string.ford_mustang_info
+        ),
+        Artwork(
+            R.drawable.pawel_czerwinski_xa2_q_pwcou_unsplash,
+            R.string.skull,
+            R.string.skull_info
+        ),
+        Artwork(
+            R.drawable.aleksandra_dementeva_prnmjrkhvpm_unsplash,
+            R.string.plate_and_glasses,
+            R.string.plate_and_glasses_info
+        ),
+        Artwork(
+            R.drawable.kevin_mueller_mardxkt4gdk_unsplash,
+            R.string.fog_shrouds,
+            R.string.fog_shrouds_info
+        ),
+        Artwork(
+            R.drawable.carlos_tonqdovhvj0_unsplash,
+            R.string.waves_crash,
+            R.string.waves_crash_info
+        ),
+        Artwork(
+            R.drawable.aaron_burden_cmzzu6zfvto_unsplash,
+            R.string.red_tulips,
+            R.string.red_tulips_info
+        ),
+        Artwork(
+            R.drawable.nastia_petruk_ibx2oiyhw2i_unsplash,
+            R.string.vibrant_sunflower,
+            R.string.vibrant_sunflower_info
+        ),
+        Artwork(
+            R.drawable.laura_ufuqmun1vem_unsplash,
+            R.string.inside_of_a_church,
+            R.string.inside_of_a_church_info
+        ),
+        Artwork(
+            R.drawable.hanna_lazar_nan6_wtljqu_unsplash,
+            R.string.vibrant_green_plants,
+            R.string.vibrant_green_plants_info
+        ),
+        Artwork(
+            R.drawable.aaron_burden_oa6ouqfswew_unsplash,
+            R.string.pretty_peach_flowers,
+            R.string.pretty_peach_flowers_info
+        ),
+        Artwork(
+            R.drawable.aaron_burden_khsl_my40ya_unsplash,
+            R.string.pink_cherry_blossom,
+            R.string.pink_cherry_blossom_info
+        ),
+        Artwork(
+            R.drawable.andrew_haimerl_gvp0tnq1u0a_unsplash,
+            R.string.neon_lit_alley,
+            R.string.neon_lit_alley_info
+        )
     )
 }
