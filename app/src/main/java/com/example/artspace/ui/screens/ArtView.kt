@@ -20,6 +20,9 @@ import com.example.artspace.repository.ArtworkRepository.artworks
 import com.example.artspace.ui.components.ArtSpace
 import com.example.artspace.ui.theme.lightBlue
 import com.example.artspace.ui.theme.lightBlueDisabled
+import androidx.compose.animation.core.animateDpAsState
+import androidx.compose.animation.animateColorAsState
+import androidx.compose.ui.draw.clip
 
 @Preview(showBackground = true)
 @Composable
@@ -74,14 +77,23 @@ fun ArtView() {
                 .padding(top = 8.dp)
         ) {
             artworks.forEachIndexed { index, _ ->
+                val isSelected = index == currentIndex.value
+
+                val dotSize by animateDpAsState(
+                    targetValue = if (isSelected) 12.dp else 8.dp,
+                    label = "dot size"
+                )
+                val dotColor by animateColorAsState(
+                    targetValue = if (isSelected) lightBlue else lightBlueDisabled,
+                    label = "dot color"
+                )
+
                 Box(
                     modifier = Modifier
                         .padding(horizontal = 4.dp)
-                        .size(if (index == currentIndex.value) 12.dp else 8.dp)
-                        .background(
-                            color = if (index == currentIndex.value) lightBlue else lightBlueDisabled,
-                            shape = CircleShape
-                        )
+                        .size(dotSize)
+                        .clip(CircleShape)
+                        .background(dotColor)
                 )
             }
         }
