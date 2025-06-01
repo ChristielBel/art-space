@@ -1,5 +1,6 @@
 package com.example.artspace.ui.screens
 
+import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.gestures.awaitHorizontalDragOrCancellation
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Button
@@ -46,11 +47,14 @@ fun ArtView() {
                 },
             contentAlignment = Alignment.Center
         ) {
-            ArtSpace(
-                artwork = artwork,
-                titleArt = title,
-                infoArt = info
-            )
+            Crossfade(targetState = currentIndex.value, label = "ArtChange") { index ->
+                val (artwork, title, info) = artworks[index]
+                ArtSpace(
+                    artwork = artwork,
+                    titleArt = title,
+                    infoArt = info
+                )
+            }
         }
 
         Row(horizontalArrangement = Arrangement.SpaceEvenly, modifier = Modifier.fillMaxWidth()) {
