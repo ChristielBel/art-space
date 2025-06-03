@@ -37,6 +37,12 @@ android {
     buildFeatures {
         compose = true
     }
+    applicationVariants.all {
+        outputs.all {
+            val apkName = "art-space.apk"
+            (this as com.android.build.gradle.internal.api.BaseVariantOutputImpl).outputFileName = apkName
+        }
+    }
 }
 
 dependencies {
