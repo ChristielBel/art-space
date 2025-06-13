@@ -12,7 +12,6 @@
 
 ## 📱 Скриншоты
 
-<!-- Вставь реальные скриншоты из приложения -->
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6dd2c04b-58b3-4802-921e-affe1427f580" alt="screenshot" width="300"/>
 </p>
